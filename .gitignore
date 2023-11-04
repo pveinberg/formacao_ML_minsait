@@ -4,3 +4,4 @@ Lib/*
 pyvenv.cfg
 share/*
 Notebooks/Aula02/src/__pycache__/*
+Notebooks/Aula03/drafts/*
