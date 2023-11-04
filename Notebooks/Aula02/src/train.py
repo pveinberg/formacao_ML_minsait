@@ -11,7 +11,7 @@ plt_data([3,4,5], [8,6,3])
 # Imports
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, \
-    mean_absolute_percentage_error, r2_score
+    mean_absolute_percentage_error, r2_score, confusion_matrix, classification_report, accuracy_score
 import numpy as np
 import math
 
@@ -50,3 +50,18 @@ def results_regression(y_test, y_pred, print_ = False):
         print(f"R2 Score: {r2}")
         
     return mse, rmse, mae, mape, r2
+
+# Função que mostra e retorna métricas de análise binária
+def results_binary(y_test, y_pred):
+    conf_matrix = confusion_matrix(y_test, y_pred)
+    print ('Confusion Matrix :')
+    print(conf_matrix)
+    
+    class_report = classification_report(y_test, y_pred) 
+    print ('Report : ')
+    print (class_report)
+
+    accuracy = accuracy_score(y_test, y_pred)
+    print("Accuracy: %.2f%%" % (accuracy * 100.0))
+
+    return conf_matrix, accuracy, class_report
