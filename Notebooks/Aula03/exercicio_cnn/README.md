@@ -8,6 +8,11 @@ Exercício CNN
     1. Definir otimizadores, métricas e regularizadores
 3. Teste (avaliação de desempenho)
 
+Foram implementados 2 scripts:
+1. [Implementação CNN básica](./classificacao/script_classificaocao_cnn_local_base.ipynb)
+2. [Implementação CNN utilizando Dropout](./classificacao/script_classificaocao_cnn_local_dropout.ipynb)
+
+
 ## Detecção CNN
 1. Usar a lib super_gradients(https://github.com/Deci-AI/super-gradients)
 2. Utilizar Yolox_nano,PP-YOLOE small ou SSD lite MobileNet v2
