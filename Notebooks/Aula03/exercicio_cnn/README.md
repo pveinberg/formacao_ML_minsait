@@ -35,11 +35,11 @@ Foram implementados 4 scripts, 1 para cada backbone
 3. [resnet18](./segmentacao/segmentacao_resnet18.ipynb)
 4. [seresnet18](./segmentacao/segmentacao_seresnet18.ipynb)
 
+### Resumo de desempenho
 
-
-| BACKBONE    | SCRIPT                        | EPOCHs | TIME FIT | LOSS   | MEAN IOU_SCORE | MEAN F1-SCORE |
-|-------------|-------------------------------|--------|----------|--------|----------------|---------------|
-| mobilenetv2 | segmentacao_mobilenetv2.ipynb | 10     | 5min 15s | 12,20% | 95,95%         | 97,90%        |
-| mobilenet   | segmentacao_mobilenet.ipynb   | 10     | 5min 10s | 11,95% | 95,81%         | 97,83%        |
-| resnet18    | segmentacao_resnet18.ipynb    | 10     | 4min 10s | 11,64% | 93,13%         | 96,37%        |
-| seresnet18  | segmentacao_seresnet18.ipynb  | 10     | 4min 30s | 12,97% | 92,39%         | 95,94%        |
+| BACKBONE    | SCRIPT                        | EPOCHs | TIME FIT | LOSS  | MEAN IOU_SCORE | MEAN F1-SCORE |
+|-------------|-------------------------------|--------|----------|-------|----------------|---------------|
+| mobilenetv2 | segmentacao_mobilenetv2.ipynb | 10     | 5min 15s | 7,78% | 94,27%         | 97,01%        |
+| mobilenet   | segmentacao_mobilenet.ipynb   | 10     | 8min 22s | 7,78% | 95,83%         | 97,83%        |
+| resnet18    | segmentacao_resnet18.ipynb    | 10     | 5min 42s | 8,86% | 93,83%         | 96,72%        |
+| seresnet18  | segmentacao_seresnet18.ipynb  | 10     | 5min 45s | 8,86% | 93,24%         | 96,39%        |
