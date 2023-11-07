@@ -7,3 +7,5 @@ Notebooks/Aula02/src/__pycache__/*
 Notebooks/Aula03/drafts/*
 Notebooks/Aula03/exercicio_cnn/deteccao/transfer_learning_object_detection_yolo_nas_s/*
 Notebooks/Aula03/exercicio_cnn/deteccao/transfer_learning_object_detection_pp_yoloe_small/*
+Notebooks/Aula04/mlruns/*
+Notebooks/Aula04/confusion.png
