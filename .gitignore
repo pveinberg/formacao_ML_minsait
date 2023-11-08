@@ -10,3 +10,4 @@ Notebooks/Aula03/exercicio_cnn/deteccao/transfer_learning_object_detection_pp_yo
 Notebooks/Aula04/mlruns/*
 Notebooks/Aula04/confusion.png
 Include/site/python3.11/greenlet/greenlet.h
+mlruns/*
