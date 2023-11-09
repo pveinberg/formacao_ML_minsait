@@ -13,3 +13,6 @@ Include/site/python3.11/greenlet/greenlet.h
 mlruns/*
 Notebooks/mlruns/*
 Experiments/*
+Notebooks/Aula04/exercicios/mlruns/*
+Notebooks/Aula04/exercicios/*.png
+Notebooks/Aula01/exercicios/mlruns/*
