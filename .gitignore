@@ -3,3 +3,8 @@ share/*
 Lib/*
 pyvenv.cfg
 Notebooks/Aula03/drafts/*
+Experiments/*
+Include/site/python3.11/greenlet/greenlet.h
+Notebooks/Aula04/mlruns/*
+Notebooks/Aula04/confusion.png
+Notebooks/mlruns/0/meta.yaml
