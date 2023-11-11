@@ -15,7 +15,6 @@ Notebooks/mlruns/*
 Experiments/*
 Notebooks/Aula04/exercicios/mlruns/*
 Notebooks/Aula04/exercicios/mlruns/610510235533355160/c16b9c1042a247299953d5092a81d609/artifacts/*
-Notebooks/Aula04/exercicios/*.png
 Notebooks/Aula01/exercicios/mlruns/*
 Notebooks/Aula04/src/__pycache__/*
 Notebooks/Aula04/exercicios/transfer_learning_object_detection_pp_yoloe_small/*
