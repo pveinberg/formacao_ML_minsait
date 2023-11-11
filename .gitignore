@@ -16,3 +16,4 @@ Experiments/*
 Notebooks/Aula04/exercicios/mlruns/*
 Notebooks/Aula04/exercicios/*.png
 Notebooks/Aula01/exercicios/mlruns/*
+Notebooks/Aula04/src/__pycache__/*
