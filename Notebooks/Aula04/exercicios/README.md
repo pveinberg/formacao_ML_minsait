@@ -11,7 +11,6 @@ PRÁTICA MLFLOW
 `Exercicio_Keras_Grupo_Ivandro_Pablo`
 
 1. Use MLFLow para salvar as ***estatísticas*** e ***hiperparametros*** de cada modelo.
-[fazer prints de tela após implementação do CNN]
 
 ![mlflow - main page](image.png)
 
@@ -35,10 +34,4 @@ PRÁTICA MLFLOW
 `mlflow models serve -m runs:/a470d0a8d2f5430493efabc2a4f4c5fa/CNN_Model --port=5003 --env-manager local`
 
 6. Faça uma requisição pro deploy de cadas modelo
-[Requisições e retornos no final de cada script.]
-
-- Inclua no envio: 
-  - Os ***arquivos*** do modelo
-  - Um ***print*** da ***ui*** do mlflow com ***estatisticas*** e ***hiperparametros*** do seu modelo
-  - Requisição feita para o modelo
-  - Resposta da requisição feita para o modelo
+**[Requisições e retornos no final de cada script.]**
