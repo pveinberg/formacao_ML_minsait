@@ -21,11 +21,10 @@ Implementar, sobre a base do Titanic - Kaggle -, várias técnicas de ML e geren
 6. aplicar as diversas técnicas e colocar no MLflow
    1. naive bayes
    2. árvores decisão
-   3. random forest 
-   4. aprendizagem por regras
-   5. baseada em instâncias
-   6. regressão logística
-   7. redes neurais 
+   3. random forest
+   4. baseada em instâncias (knn)
+   5. regressão logística
+   6. redes neurais 
    8. ...
 7.  manter o fluxo rodando
 
