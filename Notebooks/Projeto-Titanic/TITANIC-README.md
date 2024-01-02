@@ -1,39 +1,35 @@
-PROJETO TITANIC
-===============
+PROJETO MLflow - TITANIC
+========================
 
 ## Introdução
 
-Implementar, sobre a base do Titanic - Kaggle -, várias técnicas de ML e gerenciar todas elas com MLFlow
-
+Implementar, sobre O [dataset de sobreviventes do Titanic](https://www.kaggle.com/competitions/titanic/data?select=gender_submission.csv) no Kaggle, várias técnicas de ML e gerenciar todas elas usando [MLFlow](https://mlflow.org/docs/latest/index.html)
 
 ## Passos
 
-1. baixar a base completa
-2. preprocessar a base
-   1. limpar missing values
-   2. validar/limpar duplicados
-3. implementar EDAs e mostrar alguns resultados
-4. realizar encode dos dados categóricos para numéricos
-   1. normalizar dados
-   2. dividir features e classe
-   3. salvar (pickle) conjuntos de treinamento e teste
-5. implementar a base do MLflow para tratar todos os resultados  
-6. aplicar as diversas técnicas e colocar no MLflow
-   1. naive bayes
-   2. árvores decisão
-   3. random forest
-   4. baseada em instâncias (knn)
-   5. regressão logística
-   6. redes neurais 
-   8. ...
-7.  manter o fluxo rodando
-
-## Links
-
-* https://www.kaggle.com/datasets/brendan45774/test-file testes com 418 registros
-* https://www.kaggle.com/competitions/titanic/data?select=gender_submission.csv gender submission full
+1. Baixar o dataset (./datasets/raw/train.csv);
+2. Preprocessar o conjunto de dados:
+   1. Limpar missing values;
+   2. Validar/limpar duplicados;
+   3. Persistir dataset processado.
+3. implementar EDAs e mostrar alguns resultados;
+4. Realizar `encode` dos dados categóricos para numéricos:
+   1. Realizar `encode`;
+   2. Normalizar dados;
+   3. Dividir features e classe (X, y)
+   4. Dividir datasets de treinamento e teste;
+   5. Salvar (usando `pickle`) os conjuntos de treinamento e teste.
+5. Implementar base de MLflow para tratar todos os resultados.  
+6. Aplicar técnicas de ML e volcar resultados no MLflow:
+   1. Naive Bayes
+   2. Árvores Decisão
+   3. Random Forest
+   4. KNN - Baseada Em Instâncias
+   5. Regressão Logística
+   6. Redes Neurais (Pendente)
 
 ## Dataset Description
+[from Kaggle]
 
 ### Overview
 The data has been split into two groups:
